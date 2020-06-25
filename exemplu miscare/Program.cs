@@ -16,7 +16,7 @@ namespace exemplu_miscare
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormPrincipal(50,50,0,0,false));
         }
     }
 }

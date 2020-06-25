@@ -117,71 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="score" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mirror.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartoonSign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="splat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\splat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="target2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\target2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shotGun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shotGun.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="deer4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deer4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deer5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deer5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deer6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deer6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deer2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deer2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deer2-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="campie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\campie1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="campie2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\campie2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\ResourcesImage\bk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="copac2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\copac2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\ResourcesImage\bk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="timerDeer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>exemplu_miscare</RootNamespace>
     <AssemblyName>exemplu miscare</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,27 +46,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Animal_up.cs" />
+    <Compile Include="Canimal.cs" />
+    <Compile Include="CImageBase.cs" />
+    <Compile Include="Cloud.cs" />
+    <Compile Include="Content.cs" />
+    <Compile Include="CScore.cs" />
+    <Compile Include="CSplat.cs" />
+    <Compile Include="CustomCursor.cs" />
+    <Compile Include="Forest.cs" />
+    <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSecundar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSecundar.Designer.cs">
+      <DependentUpon>FormSecundar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_fishing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_fishing.Designer.cs">
+      <DependentUpon>Form_fishing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoveDeer.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Trees.cs" />
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSecundar.resx">
+      <DependentUpon>FormSecundar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_fishing.resx">
+      <DependentUpon>Form_fishing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -75,6 +111,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ResourcesImage\bk2.png" />
+    <Content Include="Resources\copac2.png" />
+    <None Include="bin\Debug\ResourcesImage\bk3.png" />
+    <Content Include="bk.jpg" />
+    <None Include="Resources\campie2.jpg" />
+    <None Include="Resources\campie1.jpg" />
+    <None Include="Resources\d1.png" />
+    <None Include="Resources\deer2-0.jpg" />
+    <None Include="Resources\deer2.gif" />
+    <None Include="Resources\deer6.png" />
+    <None Include="Resources\deer5.png" />
+    <None Include="Resources\deer4.png" />
+    <None Include="Resources\deer21.png" />
+    <None Include="Resources\deer1.png" />
+    <None Include="Resources\deer2-0.png" />
+    <None Include="Resources\deer2-4.jpg" />
+    <None Include="Resources\deer3.gif" />
+    <None Include="Resources\shotGun.wav" />
+    <None Include="Resources\target2.png" />
+    <None Include="Resources\mirror.jpg" />
+    <None Include="Resources\cartoonSign.png" />
+    <None Include="Resources\splat.png" />
+    <None Include="Resources\wd.jpg" />
+    <None Include="Resources\f3.jpg" />
+    <None Include="Resources\f1.jpg" />
+    <None Include="Resources\f4.jpg" />
+    <None Include="Resources\f3.jpeg" />
+    <None Include="Resources\f2.jpg" />
+    <None Include="Resources\bk2.png" />
+    <None Include="Resources\bk.jpg" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
