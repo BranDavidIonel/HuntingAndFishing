@@ -55,7 +55,7 @@ namespace exemplu_miscare
             misses = missesin;
             player = new Player();
             player.IsBoat = isBoat_;
-            WindowState = FormWindowState.Maximized;
+            //WindowState = FormWindowState.Maximized;
             //  moveDeer = new MoveDeer();
           
             list_animalup = new List<Animal_up>();

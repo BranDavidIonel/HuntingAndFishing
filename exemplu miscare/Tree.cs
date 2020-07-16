@@ -16,9 +16,46 @@ namespace exemplu_miscare
         int numberOfBranches;
         Random randomBranches = new Random();
     
-        public int Y { get => y; set => y = value; }
-        public int X { get => x; set => x = value; }
-        public int NumberOfBranches { get => numberOfBranches; set => numberOfBranches = value; }
+       
+       
+        public int X
+        {
+            get
+            {
+                return x;
+            }
+
+            set
+            {
+                x = value;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return y;
+            }
+
+            set
+            {
+                y = value;
+            }
+        }
+
+        public int NumberOfBranches
+        {
+            get
+            {
+                return numberOfBranches;
+            }
+
+            set
+            {
+                numberOfBranches = value;
+            }
+        }
 
         public int  RandomBranches() {
             NumberOfBranches = randomBranches.Next(4, 9);

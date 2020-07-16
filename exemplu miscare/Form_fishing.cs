@@ -33,7 +33,7 @@ namespace exemplu_miscare
             hits = hits_;
             misses=misses_;
             isBoat = isBoat_;
-            WindowState = FormWindowState.Maximized;
+            //WindowState = FormWindowState.Maximized;
             cloud = new Cloud();
             this.BackgroundImage = Image.FromFile(@"ResourcesImage\fishing1.jpg");
 

@@ -13,8 +13,8 @@ namespace exemplu_miscare
         int x;
      
         int y;
-        public int X { get => this.x; set => this.x = value; }
-        public int Y { get => this.y; set => this.y = value; }
+        public int X { get { return x; } set { x = value; } }
+        public int Y { get { return Y; } set { Y = value; } }
         Rectangle rectangle = new Rectangle();
         public void DrawCloud(Graphics graphics,int x,int y)
         {

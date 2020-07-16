@@ -54,12 +54,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 218);
+            this.ClientSize = new System.Drawing.Size(1324, 779);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "FormPrincipal";
             this.Text = "Hunter";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Click += new System.EventHandler(this.button1_Click);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);

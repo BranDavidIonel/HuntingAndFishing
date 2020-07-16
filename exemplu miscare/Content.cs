@@ -14,8 +14,33 @@ namespace exemplu_miscare
         int x;
         int y;
 
-        public int Y { get => y; set => y = value; }
-        public int X { get => x; set => x = value; }
+        public int X
+        {
+            get
+            {
+                return x;
+            }
+
+            set
+            {
+                x = value;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return y;
+            }
+
+            set
+            {
+                y = value;
+            }
+        }
+
+
 
         //verific daca este in apa sau nu 
         public bool isBlue(int x, int y) {

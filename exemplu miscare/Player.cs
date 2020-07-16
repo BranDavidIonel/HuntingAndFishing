@@ -52,8 +52,8 @@ namespace exemplu_miscare
             
 
         }
-        public int X { get =>  rectangle_player.X;  set => rectangle_player.X = value; }
-        public int Y { get => rectangle_player.Y; set => rectangle_player.Y = value; }
-        public bool IsBoat { get => isBoat; set => isBoat = value; }
+        public int X { get { return rectangle_player.X; } set { rectangle_player.X = value; } }
+        public int Y { get { return rectangle_player.Y; } set { rectangle_player.Y = value; } }
+        public bool IsBoat { get { return isBoat; } set { isBoat = value; } }
     }
 }

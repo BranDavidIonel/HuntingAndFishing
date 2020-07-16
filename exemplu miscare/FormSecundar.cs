@@ -62,7 +62,7 @@ namespace exemplu_miscare
             this.Cursor = CustomCursor.CreateCursor(b, b.Height / 2, b.Width / 2);
 
 
-            WindowState = FormWindowState.Maximized;
+           // WindowState = FormWindowState.Maximized;
             Random rd = new Random();
 
             int nrImage = rd.Next(1, 3);

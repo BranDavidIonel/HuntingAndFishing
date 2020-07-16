@@ -20,8 +20,8 @@ namespace exemplu_miscare
         private const int how_see1 = 10;// animalul in apropiere
 
         public int Type_animal {
-            get => type_animal;
-            set => type_animal = value;
+            get { return type_animal; }
+            set { type_animal = value; }
         }
 
        
